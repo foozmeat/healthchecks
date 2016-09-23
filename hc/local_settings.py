@@ -92,4 +92,4 @@ STATIC_URL = '/static/'
 MEDIA_ROOT = os.environ['MEDIA_ROOT']
 MEDIA_URL = '/media/'
 
-COMPRESS_OFFLINE = True
+COMPRESS_OFFLINE = False
