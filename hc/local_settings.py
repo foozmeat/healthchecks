@@ -93,3 +93,6 @@ MEDIA_ROOT = os.environ['MEDIA_ROOT']
 MEDIA_URL = '/media/'
 
 COMPRESS_OFFLINE = False
+
+# Honor the 'X-Forwarded-Proto' header for request.is_secure()
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
