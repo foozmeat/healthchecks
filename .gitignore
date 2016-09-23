@@ -2,5 +2,4 @@ __pycache__/
 *.pyc
 .coverage
 hc.sqlite
-hc/local_settings.py
 static-collected
